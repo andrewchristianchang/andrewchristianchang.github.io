@@ -1,0 +1,45 @@
+
+/* ---- Layout Containers ---- */
+
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.main-nav li,
+.main-nav ul {
+    background: white;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.main-header {
+    background: #3acec2;
+    padding: 1em 0;
+    text
+}
+
+.main-footer {
+    text-align: center;
+    padding: 2em 0;
+    background: #d9e4ea;
+}
+
+/* ==============================
+    Media Queries
+================================= */
+
+@media (min-width: 769px) {
+    .wrap {
+        min-height: calc(100vh - 89px);
+    }
+    
+    .container {
+        width: 70%;
+        max-width: 1000px;
+        margin: 0 auto;;
+    }
+
+
+}
