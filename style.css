@@ -4,31 +4,79 @@
 .container {
     padding-left: 1em;
     padding-right: 1em;
+    margin: 0;
 }
 
-.main-nav li,
-.main-nav ul {
-    background: white;
-    text-align: center;
-    margin-top: 6px;
-    margin-bottom: 6px;
+.main-nav,
+.main-nav li {
+    float: right;
+    padding-right: 1em;
 }
 
 .main-header {
-    background: #3acec2;
-    padding: 1em 0;
-    text
+    background: black;
+    padding: 3em 0;
+    width: 100%;
+    color: white;
+}
+
+.main-body {
+    position: relative;
+    padding: 10px;
+    padding-bottom: 160px;
 }
 
 .main-footer {
-    text-align: center;
-    padding: 2em 0;
-    background: #d9e4ea;
+    position: absolute;
+    bottom: 0;
+    height: 160px;
+    width: 100%;
+    background: black;
+}
+
+.social-media {
+    display: flex;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:140px;
+}
+
+/* ----- Stylization ----- */
+
+h1 {
+    padding-left: 1em;
+    font-family: initial;
+    font-size: 3em;
+    line-height: 20px
+}
+
+p {
+    padding-left: 1em;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: hotpink;
+    padding: 1em;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px; /* bottom equals footer height */
 }
 
 /* ==============================
     Media Queries
 ================================= */
+
+@media (min-width: 480px) {
+}    
 
 @media (min-width: 769px) {
     .wrap {
