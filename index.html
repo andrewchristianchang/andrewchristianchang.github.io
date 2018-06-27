@@ -1,46 +1,130 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
     <head>
         <title>Andrew Christian Chang | Front-End Web Developer in Training</title>
-        <link rel="stylesheet" href="normalize.css">
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        
+        <!-- My Personal CSS -->
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        
+        <!-- My Personal Javascript -->
+        <script type="text/javascript" src="menu.js"></script>
     </head>
+    <body class="bg-color">
 
-    <body>
-        <div="wrap">
 
-            <header>
-                <div class="container-fluid">
-                    <div class="main-header">
-                        <h1>andrew christian chang</h1>
-                            <ll class="main-nav">
-                                <ll><a href="#">HOME</a></ll>
-                                <ll><a href="#">MY STORY</a></ll>
-                                <ll><a href="#">RESUME</a></ll>
-                                <ll><a href="#">BLOG</a></ll>
-                                <ll><a href="#">CUTE ANIMALS FOR FUNSIES</a></ll>
-                                <ll><a href="#">CONTACT</a></ll>
-                            </ul>
+            <div id="burger-nav" class="pos-f-t burger-style">
+                    <nav class="navbar navbar-light">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </nav>
+                    <div class="collapse" id="navbarToggleExternalContent">
+                            <div class="burger-nav p-4">
+                                <hr class="bg-dark mt-0 pt-0">
+                                <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link burger-special" href="#">HOME</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link burger-special" href="#">STORY</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link burger-special" href="#">STATS</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link burger-special" href="#">SPEAK</a>
+                                        </li>
+                                    </ul>
+                            </div>
+                          </div>
+                  </div>
+
+
+                  <header class="header-effects">
+                        <div class="container-fluid">                 
+                            <div class="row">
+                                <div class="col-lg-6 text-center p-3 mt-auto mb-auto logo-typography">
+                                    <h4>THE ADVENTURES OF</h4>
+                                    <h1>ANDREW CHRISTIAN CHANG</h1>
+                                    <h6>THE JUNIOR WEB DEVELOPER OF TROOF</h6>
+                                </div>
+                                <!-- main navbar -->
+                                <div id="main-nav" class="col-lg p-3 mt-auto mb-auto" role="navigation">
+                                        <ul class="nav nav-flex nav-justified">
+                                            <li class="nav-item">
+                                                <a class="nav-link nav-effects" href="#">HOME</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link nav-effects" href="#">STORY</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link nav-effects" href="#">STATS</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link nav-effects" href="#">SPEAK</a>
+                                            </li>
+                                        </ul>
+                                </div>
+                                <!-- /main navbar -->
+                            </div>
+                        </div>
+                    </header>
+            <!-- body -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg">
+                        <img class="main-pic" src="images/comic.gif">
                     </div>
+                    <div class="col-lg bg-white dialogue-effects">
+                        <h2 class="body-headers">In the beginning...</h2>
+                        <br>
+                        <p>Hello! Nice to meet you. My name is Andrew and this is my grand adventure as a junior web developer in training extraodinaire!
+                        <br><br>I&#39;m just starting my journey, so please, go easy on me, okay? This stuff ain&#39;t easy.
+                        <br><br>Anyways, check out the STORY option to learn about some crazy backstory deets to hopefully flesh out a little character development. Or STATS for strengths and weaknesses. If you have any questions you can select SPEAK to send me a message!</p>
+            </div> 
+            <!-- /body -->
+        <!-- footer -->
+        <div class="container-fluid">
+            <div class="row py-3 footer-effects">
+                <div class="col-md-8"> 
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/Facebook.png"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/Instagram.png"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/Twitter.png"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/Linkedin.png"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/Github.png"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/Gmail.png"></a>
+                        </li>
+                    </ul>
                 </div>
-            </header>
-                <div class="main-body">
-                    <p>Howdy. I'm a Front-End Web Developer in training. I like geeky things. Weeee!</p>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-               </div>
-            <footer>
-                <div class="main-footer">
-                    <div class="social-media">
-                        <a href="https://www.facebook.com/profile.php?id=164002870" target="_blank" title="Facebook"><img src="images/Facebook.png" alt="Facebook"></a>
-                        <a href="https://www.instagram.com/andrewchristianchang/" target="_blank" title="Instagram"><img src="images/Instagram.png" alt="Instagram"></a>
-                        <a href="https://twitter.com/achristianchang" target="_blank" title="Twitter"><img src="images/Twitter.png" alt="Twitter"></a>
-                        <a href="https://www.linkedin.com//in/andrew-chang-00a157125" target="_blank" title="LinkedIn"><img src="images/Linkedin.png" alt="LinkedIn"></a>
-                        <a href="https://github.com/andrewchristianchang/" target="_blank" title="GitHub"><img src="images/Github.png" alt="GitHub"></a>
-                    </div>
+                <div class="col-sm text-md-right pt-5">
+                    <small>&copy; 2018 Portfolio &amp; Andrew Christian Chang</small>
                 </div>
-            </footer>
-
+            </div>
         </div>
+      <!-- /footer -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     </body>
 </html>
