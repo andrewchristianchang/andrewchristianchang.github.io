@@ -62,7 +62,7 @@
     justify-content: space-around;
 }
 
-a:hover {
+.nav-effects:hover {
     background-color: rgb(255,90,0);
     color: black;
 }
@@ -96,6 +96,16 @@ h6 {
 .main-pic {
     width: 100%;
     padding: 20px;
+    transform: rotate(-7deg);
+}
+
+.social-hover:hover {
+    transform: rotate(-7deg);
+}
+
+.social-design {
+    width: 70%;
+    height: 70%;
 }
 
 /*------ Base Styles -------*/
